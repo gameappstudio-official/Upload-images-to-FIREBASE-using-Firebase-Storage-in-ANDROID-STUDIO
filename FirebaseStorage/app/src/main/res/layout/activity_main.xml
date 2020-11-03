@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="200sp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/btn_selectimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/colorPrimary"
+        android:text="Select Image"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Upload Image"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="Get Image"
+        android:textAllCaps="false"
+        android:id="@+id/btn_getimage"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
